@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* 🔥 Card Container */
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 🔥 Heading look (if you add h1) */
+.container h1 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* 🔥 Input */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  outline: none;
+  background: #0f172a;
+  color: white;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* 🔥 Button */
+button {
+  margin-top: 12px;
+  padding: 12px;
+  width: 100%;
+  background: #38bdf8;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.03);
+}
+
+/* 🔥 Output Box */
+#output {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+  text-align: left;
+  min-height: 60px;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+/* 🔥 Small label effect (optional) */
+small {
+  color: #94a3b8;
+}
